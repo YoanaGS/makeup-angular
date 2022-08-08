@@ -1,0 +1,144 @@
+.background-image {
+  background-image: url(../../assets/images/best-seller-background.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.round-img {
+  border-radius: 50%;
+  width: 500px;
+  height: 465px;
+  margin-left: 145px;
+}
+
+.special {
+  font-size: 75px;
+  font-family: 'Square Peg', cursive;
+  color: #a85151;
+}
+
+.special-content {
+  font-size: 20px;
+  font-style: italic;
+  color: #5c4344;
+  margin-right: 300px;
+}
+
+hr {
+  border: none;
+  border-top: 3px double #a85151;
+  color: #a85151;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  margin-right: 300px;
+}
+
+hr:after {
+  content: '❁';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+.free {
+  background-color: #f9a4b1;
+  height: 50px;
+  margin-top: 45px;
+}
+
+.free-icon {
+  color: #5c4344;
+  font-size: 30px;
+  box-shadow: 5px 2px 2px #7c4f4f;
+  margin-right: 10px;
+}
+
+.free-content {
+  color: #5c4344;
+  font-size: 20px;
+}
+
+.best-sellers, .shade-finder {
+  color: #a85151;
+  font-family: 'Square Peg', cursive;
+  font-size: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 200px;
+  text-shadow:
+    0 0 7px rgb(249, 174, 203),
+    0 0 10px rgb(245, 170, 170),
+    0 0 21px rgb(251, 135, 189),
+    0 0 42px rgb(246, 135, 196),
+    0 0 82px rgb(247, 159, 207),
+    0 0 92px rgb(250, 123, 174),
+    0 0 102px rgb(249, 117, 148),
+    0 0 151px rgb(252, 107, 158);
+}
+
+.bs-img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow:
+  0 0 7px #d4b0be,
+  0 0 10px #f5cccc;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 0.5s ease-in-out
+}
+
+.bs-img:hover {
+transform: scale(1.1);
+transition: 0.5s;
+}
+
+.product {
+  margin-top: 30px;
+  font-style: italic;
+  font-size: 20px;
+  color: #a85151;
+  text-shadow:
+  0 0 7px #d4b0be,
+  0 0 10px #f5cccc;
+}
+
+.price {
+  font-style: italic;
+  font-size: 20px;
+  color: #a85151;
+  text-shadow:
+  0 0 7px #d4b0be,
+  0 0 10px #f5cccc;
+}
+
+.shade-finder-text {
+  color: #a85151;
+  font-style: italic;
+  font-size: 25px;
+  margin-left: 40px;
+  text-shadow:
+  0 0 7px #d4b0be,
+  0 0 10px #f5cccc;
+}
+
+.match-me {
+  margin-left: 53px;
+  margin-top: 25px;
+  margin-bottom: 230px;
+  border: solid 1px #a85151;
+  padding: 14px 60px;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 500;
+  color: #a85151;
+  transition: 0.5s ease-in-out
+}
+
+.match-me:hover {
+  background-color: #a85151;
+  color: white;
+  transition: 0.5s;
+}

@@ -1,0 +1,27 @@
+<div class="row navigation-bar mx-0">
+  <div class="col-auto align-items-center d-flex">
+    <div class="makeup-products" [matMenuTriggerFor]="belowMenu" #menuTrigger="matMenuTrigger"
+      (mouseenter)="menuTrigger.openMenu()">MAKEUP PRODUCTS</div>
+    <mat-menu #belowMenu="matMenu" class="customize-dropdown" [overlapTrigger]="false" yPosition="below">
+      <div class="row h-100 mx-0 align-items-center justify-content-around" (mouseleave)="menuTrigger.closeMenu()">
+        <div class="col-auto makeup-item">
+          <img class="item-img" src="../assets/images/facejpg.jpg">
+          <div class="text-center">Face</div>
+        </div>
+        <div class="col-auto makeup-item">
+          <img class="item-img" src="../assets/images/eyes.jpg">
+          <div class="text-center">Eyes</div>
+        </div>
+        <div class="col-auto makeup-item">
+          <img class="item-img" src="../assets/images/lip.png">
+          <div class="text-center">Lips</div>
+        </div>
+      </div>
+    </mat-menu>
+    <div class="shade-finder">SHADE FINDER</div>
+    <div class="tools">TOOLS</div>
+  </div>
+  <div class="col-auto align-items-center d-flex">
+    <img class="logo" src="../assets/images/logo.png">
+  </div>
+</div>
